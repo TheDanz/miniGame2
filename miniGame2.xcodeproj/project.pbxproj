@@ -13,6 +13,8 @@
 		05434791275E5805003A0FD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0543478F275E5805003A0FD2 /* Main.storyboard */; };
 		05434793275E5806003A0FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05434792275E5806003A0FD2 /* Assets.xcassets */; };
 		05434796275E5806003A0FD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05434794275E5806003A0FD2 /* LaunchScreen.storyboard */; };
+		054347A0275E585D003A0FD2 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0543479F275E585D003A0FD2 /* MyView.xib */; };
+		054347A2275E58C0003A0FD2 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054347A1275E58C0003A0FD2 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		05434792275E5806003A0FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05434795275E5806003A0FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05434797275E5806003A0FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0543479F275E585D003A0FD2 /* MyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		054347A1275E58C0003A0FD2 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0543478B275E5805003A0FD2 /* SceneDelegate.swift */,
 				0543478D275E5805003A0FD2 /* ViewController.swift */,
 				0543478F275E5805003A0FD2 /* Main.storyboard */,
+				0543479F275E585D003A0FD2 /* MyView.xib */,
+				054347A1275E58C0003A0FD2 /* MyView.swift */,
 				05434792275E5806003A0FD2 /* Assets.xcassets */,
 				05434794275E5806003A0FD2 /* LaunchScreen.storyboard */,
 				05434797275E5806003A0FD2 /* Info.plist */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054347A0275E585D003A0FD2 /* MyView.xib in Resources */,
 				05434796275E5806003A0FD2 /* LaunchScreen.storyboard in Resources */,
 				05434793275E5806003A0FD2 /* Assets.xcassets in Resources */,
 				05434791275E5805003A0FD2 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054347A2275E58C0003A0FD2 /* MyView.swift in Sources */,
 				0543478E275E5805003A0FD2 /* ViewController.swift in Sources */,
 				0543478A275E5805003A0FD2 /* AppDelegate.swift in Sources */,
 				0543478C275E5805003A0FD2 /* SceneDelegate.swift in Sources */,
